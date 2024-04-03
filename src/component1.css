@@ -1,7 +1,32 @@
 #c1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
     padding: 1em;
-   background-color: red;
+   background-color: transparent;
    height: 100%;
    width: 40%;
+    z-index: 4;
+    color: #0f172a;
+}
+#weather{
+    height: 90%;
+    position: relative;
+    z-index: 4;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#bg{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
     
 }
