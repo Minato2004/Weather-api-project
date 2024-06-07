@@ -1,6 +1,4 @@
 import { useState,useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import C1 from './component1.jsx'
 import C2 from './component2.jsx'
